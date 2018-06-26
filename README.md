@@ -11,4 +11,5 @@ Steps:
 4. use Geneious to view the alignments, export them as Phylip files
 5. batchcodeml.sh
 >make directory for each gene, move Phylip file and modified codeml.ctl to the file, run codeml for each gene.
-
+6. statistics.sh
+>extract w value and lnL value from PAML main results file (mlc).

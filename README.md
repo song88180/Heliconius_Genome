@@ -1,6 +1,8 @@
 # Heliconius_Genome
 Heliconius_Genome_Project
 
+Scripts need to change to fit your own environment!
+
 Steps:
 1. getindvmaf.sh 
 >create bed files for each of the genes (only have one line), run hal2maf against all the bed files to get individual maf file.

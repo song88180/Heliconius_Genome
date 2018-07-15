@@ -1,7 +1,7 @@
 # Heliconius_Genome
 Heliconius_Genome_Project
 
-Scripts need to change to fit your own environment!
+Scripts need to be changed to fit your own environment!
 
 Steps:
 1. getindvmaf.sh 

@@ -1,5 +1,6 @@
 # Heliconius_Genome
-Heliconius_Genome_Project
+## paml_analysis_on_genes_in_chr2
+
 
 Scripts need to be changed to fit your own environment!
 

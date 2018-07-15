@@ -4,7 +4,7 @@ Heliconius_Genome_Project
 Scripts need to be changed to fit your own environment!
 
 Steps:
-1. <font color=red>getmaf.sh</font>
+1. <font color="#166633">getmaf.sh</font>
 >create bed files for each of the genes (only have one line), run hal2maf against all the bed files to get individual maf file.
 2. maf2fas.sh
 >turn maf file to fasta alignment using mafToFasta.py

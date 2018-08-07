@@ -1,0 +1,4 @@
+bwa mem -t 12 Herato_chr_all.fas fastq/Hera_leg_2_1.fastq.gz fastq/Hera_leg_2_2.fastq.gz | gzip -3 > Hera_leg_2.sam.gz
+bwa mem -t 12 Herato_chr_all.fas fastq/Hera_leg_1_1.fastq.gz fastq/Hera_leg_1_2.fastq.gz | gzip -3 > Hera_leg_1.sam.gz
+bwa mem -t 12 Herato_chr_all.fas fastq/Hsar_leg_1_1.fastq.gz fastq/Hsar_leg_1_2.fastq.gz | gzip -3 > Hsar_leg_1.sam.gz
+bwa mem -t 12 Herato_chr_all.fas fastq/Hsar_leg_2_1.fastq.gz fastq/Hsar_leg_2_2.fastq.gz | gzip -3 > Hsar_leg_2.sam.gz

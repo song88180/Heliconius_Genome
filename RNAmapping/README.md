@@ -29,4 +29,21 @@ mapping reads alignments to gene annotation:
     stringtie -p 2 -G ../refgenome/Hera_0211-14.gtf -o Hera_leg_2_0211-14.gtf -l Hera_leg_2_0211-14 Hera_leg_2_0211-14.bam
     stringtie -p 2 -G ../refgenome/Hera_0211-14.gtf -o Hsar_leg_1_0211-14.gtf -l Hsar_leg_1_0211-14 Hsar_leg_1_0211-14.bam
     stringtie -p 2 -G ../refgenome/Hera_0211-14.gtf -o Hsar_leg_2_0211-14.gtf -l Hsar_leg_2_0211-14 Hsar_leg_2_0211-14.bam
+
+merge gtf for the following DEG analysis:
+
+    stringtie --merge -p 2 -G ../refgenome/Hera_0211-14.gtf -o HeraHsar_merged.gtf gtflist.txt
+    
+calculate expression abundance using merged gtf:
+    
+    stringtie -e -p 2 -G HeraHsar_merged.gtf -A Hera_leg_1_0211-14_genes.gtf -o Hera_leg_1_0211-14_transcripts.gtf ../bam/Hera_leg_1_0211-14.bam
+    stringtie -e -p 2 -G HeraHsar_merged.gtf -A Hera_leg_2_0211-14_genes.gtf -o Hera_leg_2_0211-14_transcripts.gtf ../bam/Hera_leg_2_0211-14.bam
+    stringtie -e -p 2 -G HeraHsar_merged.gtf -A Hsar_leg_1_0211-14_genes.gtf -o Hsar_leg_1_0211-14_transcripts.gtf ../bam/Hsar_leg_1_0211-14.bam
+    stringtie -e -p 2 -G HeraHsar_merged.gtf -A Hsar_leg_2_0211-14_genes.gtf -o Hsar_leg_2_0211-14_transcripts.gtf ../bam/Hsar_leg_2_0211-14.bam
+    
+
+    
+    
+    
+    
     

@@ -18,6 +18,8 @@ Plan to use bwa to map reads at first:
 
 Then found tophat is more suitbale, so re-run the mapping using tophat with transcriptome annotation gtf:
 
+    bowtie2-build --threads 12 Hera_0211-14.fa
+
     tophat2 -o Hera_0211-14_1_tophat2 -p 12 -G refgenome/Hera_0211-14.gtf refgenome/Hera_0211-14 fastq/Hera_leg_1_1.fastq.gz fastq/Hera_leg_1_2.fastq.gz
     tophat2 -o Hera_0211-14_2_tophat2 -p 12 -G refgenome/Hera_0211-14.gtf refgenome/Hera_0211-14 fastq/Hsar_leg_2_1.fastq.gz fastq/Hsar_leg_2_2.fastq.gz
     tophat2 -o Hsar_0211-14_1_tophat2 -p 12 -G refgenome/Hera_0211-14.gtf refgenome/Hera_0211-14 fastq/Hsar_leg_1_1.fastq.gz fastq/Hsar_leg_1_2.fastq.gz

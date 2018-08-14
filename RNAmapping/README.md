@@ -66,8 +66,17 @@ convert BED to GTF:
 
     python bed2gtf.py Hsar_chr2_nodupe_290.bed | sort -t $'\t' -k1,1 -k4,4n > Hsar_sorted_refgenome.gtf
     
-Get Hsar sequence :
+Get Hsar Fasta sequence :
 
     awk '{print $1}' Hsar_sorted_refgenome.gtf | uniq > Hsarseqlist
     getFasta.sh
+    
+Redo RNA mapping using new generated Hsar GTF & Fasta. (Same procedures as above)
+
+Results Comparism:
+
+|dfdf|sdfsdf|
+|asdf|ddfdf|
+
+
     

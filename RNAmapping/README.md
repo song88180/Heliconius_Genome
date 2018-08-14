@@ -43,7 +43,7 @@ Calculate normalized expression abundance using merged gtf:
     stringtie -e -p 2 -G HeraHsar_merged.gtf -A Hsar_leg_1_0211-14_genes.gtf -o Hsar_leg_1_0211-14_transcripts.gtf ../bam/Hsar_leg_1_0211-14.bam
     stringtie -e -p 2 -G HeraHsar_merged.gtf -A Hsar_leg_2_0211-14_genes.gtf -o Hsar_leg_2_0211-14_transcripts.gtf ../bam/Hsar_leg_2_0211-14.bam
 
-Generate reads count table (for DESeq2) using merged gtf and bam. 
+Generate reads count table (for DESeq2) using merged gtf and bam:
 
     htseq-count -q -f bam -s no -i transcript_id Hera_leg_1_0211-14.bam ../gtf_merged/HeraHsar_merged.gtf > Hera_leg_1_0211-14.count
     htseq-count -q -f bam -s no -i transcript_id Hera_leg_2_0211-14.bam ../gtf_merged/HeraHsar_merged.gtf > Hera_leg_2_0211-14.count
@@ -51,8 +51,23 @@ Generate reads count table (for DESeq2) using merged gtf and bam.
     htseq-count -q -f bam -s no -i transcript_id Hsar_leg_2_0211-14.bam ../gtf_merged/HeraHsar_merged.gtf > Hsar_leg_2_0211-14.count
     join Hera_leg_1_0211-14.count Hera_leg_2_0211-14.count | join - Hsar_leg_1_0211-14.count | join - Hsar_leg_2_0211-14.count > counttable.txt
     
-Generate heat map using fpkm
+Generate heat map using fpkm:
 
     join -t $'\t' Hera_leg_1_0211-14_TID.gtf Hera_leg_2_0211-14_TID.gtf | join - Hsar_leg_1_0211-14_TID.gtf | join - Hsar_leg_2_0211-14_TID.gtf > out_fpkm.gtf
     
+    
+------------------------------------------
+
+liftOver HeraRef annotation to Hsar genome:
+
+    halLiftover --noDupes <halFile> HeraRef Herato_chr2_nodupe_290.bed Hsar Hsar_chr2_nodupe_290.bed
+    
+convert BED to GTF:
+
+    python bed2gtf.py Hsar_chr2_nodupe_290.bed | sort -t $'\t' -k1,1 -k4,4n > Hsar_sorted_refgenome.gtf
+    
+Get Hsar sequence :
+
+    awk '{print $1}' Hsar_sorted_refgenome.gtf | uniq > Hsarseqlist
+    getFasta.sh Hsarseqlist
     

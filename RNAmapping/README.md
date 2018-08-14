@@ -69,5 +69,5 @@ convert BED to GTF:
 Get Hsar sequence :
 
     awk '{print $1}' Hsar_sorted_refgenome.gtf | uniq > Hsarseqlist
-    getFasta.sh Hsarseqlist
+    getFasta.sh
     

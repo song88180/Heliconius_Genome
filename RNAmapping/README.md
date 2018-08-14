@@ -75,8 +75,13 @@ Redo RNA mapping using new generated Hsar GTF & Fasta. (Same procedures as above
 
 Results Comparism:
 
-|dfdf|sdfsdf|
-|asdf|ddfdf|
+| | Hera map to Hera 1 | Hera map to Hera 2 | Hsar map to Hera 1 | Hsar map to Hera 2 | Hsar map to Hsar 1 | Hsar map to Hsar 2 |
+| - | - | - | - | - | - | - |
+| annotation number (gtf) | 140 | 140 | 140 | 140 | 133 | 133 |
+| exon alignment length (bp) | 294369 | 294369 | 294369 | 294369 | 224998 | 224998
+| mapped | 167537 | 51520 | 18213 | 37362 | 63094 | 103177 |
+| properly paired | 82856 | 22478 | 5114 | 11028 | 36548 | 48734 |
+| unmapped | 19738236 | 18085104 | 11844181 | 24629228 | 11803838 | 24577094 |
 
 
     

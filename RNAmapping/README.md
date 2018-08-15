@@ -73,17 +73,21 @@ Get Hsar Fasta sequence :
     
 Redo RNA mapping using new generated Hsar GTF & Fasta. (Same procedures as above)
 
+Filter reads that have mapping quality over 50:
+
+    samtools view -b -q 50 -o <output.bam> accepted_hits.bam 
+
 Results Comparism:
 
 | | Hera map to Hera 1 | Hera map to Hera 2 | Hsar map to Hera 1 | Hsar map to Hera 2 | Hsar map to Hsar 1 | Hsar map to Hsar 2 |
 | - | - | - | - | - | - | - |
 | annotation number (gtf) | 140 | 140 | 140 | 140 | 133 | 133 |
 | exon alignment length (bp) | 294369 | 294369 | 294369 | 294369 | 224998 | 224998
-| mapped | 167537 | 51520 | 18213 | 37362 | 63094 | 103177 |
-| properly paired | 82856 | 22478 | 5114 | 11028 | 36548 | 48734 |
-| unmapped | 19738236 | 18085104 | 11844181 | 24629228 | 11803838 | 24577094 |
-| mapped MQ=50 | 121301 | 36160 | 14881 | 30599 | 54159 | 79882 |
-| properly paired MQ=50 | 81582 | 22094 | 5086 | 10974 | 36236 | 48080 |
+| mapped | 150780 | 47339 | 18213 | 37362 | 63436 | 103883 |
+| properly paired | 62880 | 17970 | 5114 | 11028 | 37052 | 49866 |
+| unmapped | 19754743 | 18089251 | 11844181 | 24629228 | 11803455 | 24576283 |
+| mapped MQ=50 | 104922 | 32062 | 14881 | 30599 | 54576 | 80793 |
+| properly paired MQ=50 | 61606 | 17602 | 5086 | 10974 | 36758 | 49280 |
 
 
     

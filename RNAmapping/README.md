@@ -49,11 +49,12 @@ Generate reads count table (for DESeq2) using merged gtf and bam:
     htseq-count -q -f bam -s no -i transcript_id Hera_leg_2_0211-14.bam ../gtf_merged/HeraHsar_merged.gtf > Hera_leg_2_0211-14.count
     htseq-count -q -f bam -s no -i transcript_id Hsar_leg_1_0211-14.bam ../gtf_merged/HeraHsar_merged.gtf > Hsar_leg_1_0211-14.count
     htseq-count -q -f bam -s no -i transcript_id Hsar_leg_2_0211-14.bam ../gtf_merged/HeraHsar_merged.gtf > Hsar_leg_2_0211-14.count
+    
     join Hera_leg_1_0211-14.count Hera_leg_2_0211-14.count | join - Hsar_leg_1_0211-14.count | join - Hsar_leg_2_0211-14.count > counttable.txt
     
 Generate heat map using fpkm:
 
-    join -t $'\t' Hera_leg_1_0211-14_TID.gtf Hera_leg_2_0211-14_TID.gtf | join - Hsar_leg_1_0211-14_TID.gtf | join - Hsar_leg_2_0211-14_TID.gtf > out_fpkm.gtf
+    join -t $'\t' Hera_leg_1_0211-14_TID.gtf Hera_leg_2_0211-14_TID.gtf | join -t $'\t' - Hsar_leg_1_0211-14_TID.gtf | join -t $'\t' - Hsar_leg_2_0211-14_TID.gtf > out_fpkm.gtf
     
     
 ------------------------------------------

@@ -82,7 +82,7 @@ Results Comparism:
 
 | | Hera map to Hera 1 | Hera map to Hera 2 | Hsar map to Hera 1 | Hsar map to Hera 2 | Hsar map to Hsar 1 | Hsar map to Hsar 2 |
 | - | - | - | - | - | - | - |
-| annotation number (gtf) | 140 | 140 | 140 | 140 | 133 | 133 |
+| annotation number (gtf) | 122 | 122 | 122 | 122 | 116 | 116 |
 | exon alignment length (bp) | 294369 | 294369 | 294369 | 294369 | 224998 | 224998
 | mapped | 150780 | 47339 | 18213 | 37362 | 63436 | 103883 |
 | properly paired | 62880 | 17970 | 5114 | 11028 | 37052 | 49866 |

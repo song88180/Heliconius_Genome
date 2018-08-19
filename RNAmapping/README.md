@@ -96,6 +96,7 @@ Extract single copy orthologs from maf file:
 
     hal2maf  --noAncestors --noDupes --onlyOrthologs --refGenome HeraRef --refTargets Hera_chr2_nodupe_290.bed --targetGenomes "HeraRef,Hsar" ../../../finalAssemblies_highQual_1kbFilter_161101.hal HerHsar_chr2_inv.maf
     python getSingleCopy.py  HeraHsar_chr2_inv.maf
+    maf-convert axt HeraHsar_chr2_inv_singleCopy.maf > HeraHsar_chr2_inv_singleCopy.axt
     
 Only 1 sequence has multiple copy. looking at the alignment, it should be a single copy orthologs...
 
@@ -103,6 +104,8 @@ Only 1 sequence has multiple copy. looking at the alignment, it should be a sing
     s       HeraRef.Herato_chr2_5   62260   187     +       3116133 TCATGAATTCGACGACGGCCCACAAGGCTTGGCCCCGTATCTTAGGGCTCTTAAGGCACCAGTACTGGCTGCAAACATGGACACCACCAAAGAACCCGTACTAAATGGACTATACAGGCCTCATGTTATTATAGAACGAAACAAGAGGAGAATTGGTCTAATTGGACTAATTACTACTGATACTAAG
     s       Hsar.EI_a_scaffold_17978        958     186     -       20716   CCATGAATTCGATGATGGAATAGCGGGCCTCGCACCATACCTTGCGGCACTCCAAGCTCCTGTTGTCGTTGCAAATATCAACACAACCCTTGAACCTAGTCTGAATGGTTTATACAAACCTCATATTGTGATACAAAGATACGGAAGAAAAATTGGAATAATTGGTCTTATAACGACAGAAACTAA-
     s       Hsar.EI_a_scaffold_19101        5023    1       -       37284   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------A
+    
+    
 
 extracts constitutive exons from gff file:
 
@@ -111,5 +114,25 @@ extracts constitutive exons from gff file:
 656 out of 1195 exons remained.
 
     perl gffToChrs.pl exons/Hera_chr2_inv.min_100.const_exons.gff gffChrs/
+    sort -t $'\t' -k4,4n Herato_chr2_X.gff > Herato_chr2_X_sorted.gff
+    
+    
+Liftover Hera annotation to Hsar genome:
+    
+    perl axtLift.pl gffChrs/Herato_chr2_X_sorted.gff axtChrs/HeraHsar_chr2_X.axt HsarGff
+    
+451 out of 656 exons liftover to Hsar genome.
+    
+merge.sh:
+
+    ls -1 Hsar* > Hsar_gff.list
+    while read file;do
+        sort -t $'\t' -k4,4n $file >> Hsar_inv_merged.gff
+    done < Hsar_gff.list
+    
+    gffread Hera_chr2_inv_sorted.gff -T -o Hera_chr2_inv_sorted.gtf
+    gffread Hsar_liftover.gff -T -o Hsar_liftover_sorted.gtf
+    
+Then use the new generated GTF file to repeat the RNA reads mapping as above.
     
     

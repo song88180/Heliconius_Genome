@@ -107,4 +107,9 @@ Only 1 sequence has multiple copy. looking at the alignment, it should be a sing
 extracts constitutive exons from gff file:
 
     exon_utils --get-const-exons Hera_chr2_inv.gff --min-exon-size=100 --output-dir exons/
+
+656 out of 1195 exons remained.
+
+    perl gffToChrs.pl exons/Hera_chr2_inv.min_100.const_exons.gff gffChrs/
+    
     

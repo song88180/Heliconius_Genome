@@ -67,7 +67,7 @@ convert BED to GTF:
 
     python bed2gtf.py Hsar_chr2_nodupe_290.bed | sort -t $'\t' -k1,1 -k4,4n > Hsar_sorted_refgenome.gtf
     
-Get Hsar Fasta sequence :
+Get Hsar Fasta sequence:
 
     awk '{print $1}' Hsar_sorted_refgenome.gtf | uniq > Hsarseqlist
     getFasta.sh
@@ -90,5 +90,21 @@ Results Comparism:
 | mapped MQ=50 | 104922 | 32062 | 14881 | 30599 | 54576 | 80793 |
 | properly paired MQ=50 | 61606 | 17602 | 5086 | 10974 | 36758 | 49280 |
 
+------------------------------------------
 
+Extract single copy orthologs from maf file:
+
+    hal2maf  --noAncestors --noDupes --onlyOrthologs --refGenome HeraRef --refTargets Hera_chr2_nodupe_290.bed --targetGenomes "HeraRef,Hsar" ../../../finalAssemblies_highQual_1kbFilter_161101.hal HerHsar_chr2_inv.maf
+    python getSingleCopy.py  HeraHsar_chr2_inv.maf
+    
+Only 1 sequence has multiple copy. looking at the alignment, it should be a single copy orthologs...
+
+    a
+    s       HeraRef.Herato_chr2_5   62260   187     +       3116133 TCATGAATTCGACGACGGCCCACAAGGCTTGGCCCCGTATCTTAGGGCTCTTAAGGCACCAGTACTGGCTGCAAACATGGACACCACCAAAGAACCCGTACTAAATGGACTATACAGGCCTCATGTTATTATAGAACGAAACAAGAGGAGAATTGGTCTAATTGGACTAATTACTACTGATACTAAG
+    s       Hsar.EI_a_scaffold_17978        958     186     -       20716   CCATGAATTCGATGATGGAATAGCGGGCCTCGCACCATACCTTGCGGCACTCCAAGCTCCTGTTGTCGTTGCAAATATCAACACAACCCTTGAACCTAGTCTGAATGGTTTATACAAACCTCATATTGTGATACAAAGATACGGAAGAAAAATTGGAATAATTGGTCTTATAACGACAGAAACTAA-
+    s       Hsar.EI_a_scaffold_19101        5023    1       -       37284   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------A
+
+extracts constitutive exons from gff file:
+
+    exon_utils --get-const-exons Hera_chr2_inv.gff --min-exon-size=100 --output-dir exons/
     

@@ -130,10 +130,20 @@ merge.sh:
         sort -t $'\t' -k4,4n $file >> Hsar_inv_merged.gff
     done < Hsar_gff.list
     
- 
+Convert GFF to GTF:
+    
     gffread Hera_chr2_inv_sorted.gff -T -o Hera_chr2_inv_sorted.gtf
     gffread Hsar_liftover.gff -T -o Hsar_liftover_sorted.gtf
     
 Then use the new generated GTF file to repeat the RNA reads mapping as above.
     
     
+| | Hera map to Hera 1 | Hera map to Hera 2 | Hsar map to Hera 1 | Hsar map to Hera 2 | Hsar map to Hsar 1 | Hsar map to Hsar 2 | Hsar map to Hsar 1 single copy | Hsar map to Hsar 2 single copy |
+| - | - | - | - | - | - | - | - | - |
+| exon annotation number (gtf) | 864 | 864 | 864 | 864 | 1003 | 1003 | 417 | 417 |
+| exon alignment length (bp) | 167745 | 167745 | 167745 | 167745 | 139018 | 139018 | ? | ? |
+| mapped | 150780 | 47339 | 18213 | 37362 | 63436 | 103883 | 62293 | 94525 |
+| properly paired | 62880 | 17970 | 5114 | 11028 | 37052 | 49866 | 35778 | 40362 |
+| unmapped | 19754743 | 18089251 | 11844181 | 24629228 | 11803455 | 24576283 | 11804506 | 24584901 |
+| mapped MQ=50 | 104922 | 32062 | 14881 | 30599 | 54576 | 80793 | 53332 | 72074 |
+| properly paired MQ=50 | 61606 | 17602 | 5086 | 10974 | 36758 | 49280 | 35354 | 39684 |

@@ -1,0 +1,88 @@
+scaf,branchtype,start,end,score,id,position,reletive_gene,gene_start,gene_end,gene_strand,Description,GO
+Herato_chr2_2,Hhsa-HeraRef-death,166189,166344,34.981,"id ""inv_scaf2.65""",exon+intron,evm.model.Herato0214.51,166162,174474,+,"Cytochrome P450, E-class, group I",GO:0016705;GO:0005506;GO:0020037;GO:0055114
+Herato_chr2_2,Hhsa-HeraRef-death,183977,184284,23.334,"id ""inv_scaf2.80""",exon+intron,evm.model.Herato0214.50,180059,190822,+,"Cytochrome P450, E-class, group I",GO:0055114 ;GO:0020037 ;GO:0005506 ;GO:0016705
+Herato_chr2_2,Htel-Hsar-death,200179,200264,26.499000000000002,"id ""inv_scaf2.98""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,201050,201158,23.169,"id ""inv_scaf2.99""",noncoding_region,NA,,,,,
+Herato_chr2_2,Htel-Hsar-death,256798,256990,63.486000000000004,"id ""inv_scaf2.143""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,269347,269689,24.164,"id ""inv_scaf2.155""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,293146,293385,63.973,"id ""inv_scaf2.178""",intron,evm.model.Herato0214.43_evm.model.Herato0214.44_evm.model.Herato0214.46,276234,346797,+,"PDZ domain;;Myosin head, motor domain;;P-loop containing nucleoside triphosphate hydrolase;",GO:0005524 ;GO:0003774 ;GO:0005515 ;GO:0016459
+Herato_chr2_2,Hhsa-HeraRef-death,293779,293972,49.188,"id ""inv_scaf2.179""",intron,evm.model.Herato0214.43_evm.model.Herato0214.44_evm.model.Herato0214.46,276234,346797,+,"PDZ domain;;Myosin head, motor domain;;P-loop containing nucleoside triphosphate hydrolase;",GO:0005524 ;GO:0003774 ;GO:0005515 ;GO:0016459
+Herato_chr2_2,Htel-Hsar-death,306546,306736,56.708999999999996,"id ""inv_scaf2.195""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,309884,310060,55.527,"id ""inv_scaf2.199""",noncoding_region,NA,,,,,
+Herato_chr2_2,Htel-Hsar-death,318834,318965,41.402,"id ""inv_scaf2.208""",noncoding_region,NA,,,,,
+Herato_chr2_2,Htel-Hsar-death,319748,320058,74.744,"id ""inv_scaf2.209""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,357539,357652,34.39,"id ""inv_scaf2.251""",noncoding_region,NA,,,,,
+Herato_chr2_2,Htel-Hsar-death,361337,361515,31.898000000000003,"id ""inv_scaf2.255""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,370547,371066,36.569,"id ""inv_scaf2.265""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,400622,400762,22.826,"id ""inv_scaf2.288""",noncoding_region,evm.model.Herato0214.42,404279,461855,+,"IQ motif, EF-hand binding site;Myosin IQ motif-containing domain superfamily;;P-loop containing nucleoside triphosphate hydrolase;",GO:0005515
+Herato_chr2_2,Htel-Hsar-death,401881,402012,44.619,"id ""inv_scaf2.290""",noncoding_region,evm.model.Herato0214.42,404279,461855,+,"IQ motif, EF-hand binding site;Myosin IQ motif-containing domain superfamily;;P-loop containing nucleoside triphosphate hydrolase;",GO:0005516
+Herato_chr2_2,Hhsa-HeraRef-death,439263,439558,46.123000000000005,"id ""inv_scaf2.334""",intron,evm.model.Herato0214.42,404279,461855,+,"IQ motif, EF-hand binding site;Myosin IQ motif-containing domain superfamily;;P-loop containing nucleoside triphosphate hydrolase;",GO:0005517
+Herato_chr2_2,Hhsa-HeraRef-death,449882,450165,74.632,"id ""inv_scaf2.350""",intron,evm.model.Herato0214.42,404279,461855,+,"IQ motif, EF-hand binding site;Myosin IQ motif-containing domain superfamily;;P-loop containing nucleoside triphosphate hydrolase;",GO:0005518
+Herato_chr2_2,Htel-Hsar-death,480114,480206,31.906,"id ""inv_scaf2.386""",exon+intron,evm.model.Herato0214.41,471843,483010,+,"Clathrin adaptor, beta-adaptin, appendage, Ig-like subdomain;Clathrin adaptor, appendage, Ig-like subdomain superfamily;",GO:0030131 ;GO:0030117 ;GO:0006886 ;GO:0005488 ;GO:0016192
+Herato_chr2_2,Hhsa-HeraRef-death,510103,510315,38.577,"id ""inv_scaf2.413""",intron,evm.model.Herato0214.39,508207,524783,+,"Chymotrypsin serine protease family (S1) signature; Serine proteases, trypsin family, histidine active site.",GO:0006508 ;GO:0004252
+Herato_chr2_2,Hhsa-HeraRef-death,529131,529429,34.597,"id ""inv_scaf2.431""",partial_overlapped,evm.model.Herato0214.38,526742,529241,+,"8-oxoguanine DNA glycosylase, N-terminal domainl;  HhH-GPD superfamily base excision DNA repair protein; DNA glycosylase;; Helix-turn-helix, base-excision DNA repair, C-terminal",GO:0006284 ;GO:0006289 ;GO:0003824 ;GO:0006281 ;GO:0008534 ;GO:0003684
+Herato_chr2_2,Hhsa-HeraRef-death,676187,676318,49.023,"id ""inv_scaf2.583""",intron,evm.model.Herato0214.26,663833,679720,+,SNARE associated Golgi protein; SAP domain; Vacuole membrane protein 1,
+Herato_chr2_2,Hhsa-HeraRef-death,686913,687507,22.574,"id ""inv_scaf2.599""",noncoding_region,evm.model.Herato0214.25,687637,690541,+,"Ribosomal protein S15 signature; S15/NS1, RNA-binding",GO:0005622 ;GO:0006412 ;GO:0005840 ;GO:0003735
+Herato_chr2_2,Hhsa-HeraRef-death,711997,712214,52.003,"id ""inv_scaf2.627""",intron,evm.model.Herato0214.23,699241,739425,-,"Rab-binding domain profile; Synaptotagmin signature;Zinc finger, FYVE/PHD-type; ",GO:0005515 ;GO:0006886 ;GO:0016020 ;GO:0017137
+Herato_chr2_2,Hhsa-HeraRef-death,715917,716024,31.717,"id ""inv_scaf2.632""",exon,evm.model.Herato0214.23,699241,739425,-,"Rab-binding domain profile; Synaptotagmin signature;Zinc finger, FYVE/PHD-type; ",GO:0005515 ;GO:0006886 ;GO:0016020 ;GO:0017137
+Herato_chr2_2,Hhsa-HeraRef-death,749543,749694,36.215,"id ""inv_scaf2.654""",intron,evm.model.Herato0214.22,741277,769247,+,JNK_SAPK-associated protein-1;  Rab interacting lysosomal protein,
+Herato_chr2_2,Hhsa-HeraRef-death,761052,761107,24.699,"id ""inv_scaf2.665""",intron,evm.model.Herato0214.22,741277,769247,+,JNK_SAPK-associated protein-1;  Rab interacting lysosomal protein,
+Herato_chr2_2,Hhsa-HeraRef-death,768110,768276,27.969,"id ""inv_scaf2.671""",intron,evm.model.Herato0214.22,741277,769247,+,JNK_SAPK-associated protein-1;  Rab interacting lysosomal protein,
+Herato_chr2_2,Hhsa-HeraRef-death,781663,781790,38.806,"id ""inv_scaf2.693""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,786230,786375,33.306,"id ""inv_scaf2.697""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,826121,826383,50.5,"id ""inv_scaf2.733""",noncoding_region,NA,,,,,
+Herato_chr2_2,Htel-Hsar-death,827254,827378,23.28,"id ""inv_scaf2.734""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,848207,848504,100.57,"id ""inv_scaf2.758""",intron,evm.model.Herato0214.20,835986,863578,+,PH-like domain superfamily;,
+Herato_chr2_2,Hhsa-HeraRef-death,848876,849131,39.796,"id ""inv_scaf2.759""",intron,evm.model.Herato0214.20,835986,863578,+,PH-like domain superfamily;,
+Herato_chr2_2,Hhsa-HeraRef-death,907478,907853,28.103,"id ""inv_scaf2.808""",noncoding_region,NA,,,,,
+Herato_chr2_2,Hhsa-HeraRef-death,935807,936313,132.35,"id ""inv_scaf2.838""",intron,evm.model.Herato0214.18,911871,947377,-,RED-like protein C-terminal region; RED-like protein N-terminal region,GO:0005634
+Herato_chr2_2,Hhsa-HeraRef-death,1003092,1003231,27.166999999999998,"id ""inv_scaf2.897""",intron,evm.model.Herato0214.14,974986,1004961,+,Phosphatidylinositol transfer protein; START-like domain superfamily ;,GO:0005622 ;GO:0006810
+Herato_chr2_3,Htel-Hsar-death,76386,76526,38.777,"id ""inv_scaf3.18""",exon,evm.model.Herato0213.2,61096,76539,-,Putative AMP-binding domain signature.; AMP-binding enzyme,GO:0008152;GO:0003824
+Herato_chr2_4,Hhsa-HeraRef-birth,80218,80461,28.964000000000002,"id ""inv_scaf4.18""",exon+intron,evm.model.Herato0212.5,67348,81866,+,Aldo-keto reductase signature; Aldo/keto reductase family signature 2.; NADP-dependent oxidoreductase domain,GO:0016491;GO:0055114
+Herato_chr2_4,Hhsa-HeraRef-birth,81464,82351,46.068000000000005,"id ""inv_scaf4.20""",partial_overlapped,evm.model.Herato0212.5,67348,81866,+,Aldo-keto reductase signature; Aldo/keto reductase family signature 2.; NADP-dependent oxidoreductase domain,GO:0016491;GO:0055114
+Herato_chr2_5,Htel-Hsar-death,15258,15376,27.023000000000003,"id ""inv_scaf5.4""",exon,evm.model.Herato0211.105,7906,17889,+,Lipocalin / cytosolic fatty-acid binding protein family; Cytosolic fatty-acid binding proteins signature. ;Calycin ,GO:0008289 ;GO:0006810 ;GO:0005215
+Herato_chr2_5,Hhsa-HeraRef-death,113491,113702,47.245,"id ""inv_scaf5.92""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,121736,121919,50.846000000000004,"id ""inv_scaf5.100""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-birth,152219,152360,21.801,"id ""inv_scaf5.131""",intron,evm.model.Herato0211.100,137373,161328,+,Ion channel; Potassium channel subfamily K member 9,
+Herato_chr2_5,Hhsa-HeraRef-death,170501,170609,30.208000000000002,"id ""inv_scaf5.140""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,211314,211511,73.753,"id ""inv_scaf5.172""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,211936,212071,41.03,"id ""inv_scaf5.173""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,325827,325915,33.717,"id ""inv_scaf5.222""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,329708,329767,20.783,"id ""inv_scaf5.225""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,457539,457702,25.623,"id ""inv_scaf5.276""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-birth,470054,470224,20.853,"id ""inv_scaf5.281""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,659709,659923,33.547,"id ""inv_scaf5.386""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,696666,696786,34.069,"id ""inv_scaf5.413""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,698497,698597,24.355,"id ""inv_scaf5.415""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,701926,702062,27.014,"id ""inv_scaf5.420""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,711324,711451,44.371,"id ""inv_scaf5.429""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,740829,740971,56.181000000000004,"id ""inv_scaf5.450""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,760219,760454,67.054,"id ""inv_scaf5.463""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,815753,815965,46.67,"id ""inv_scaf5.520""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,818609,818878,73.768,"id ""inv_scaf5.522""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,884513,884596,26.59,"id ""inv_scaf5.567""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,938124,938228,40.135,"id ""inv_scaf5.615""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,961990,962050,24.208000000000002,"id ""inv_scaf5.637""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,964712,964836,31.945,"id ""inv_scaf5.639""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,983326,983532,50.162,"id ""inv_scaf5.653""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,993358,993512,40.325,"id ""inv_scaf5.663""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,1014738,1015003,59.378,"id ""inv_scaf5.679""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,1063986,1064293,96.59700000000001,"id ""inv_scaf5.720""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-birth,1065749,1065895,19.243,"id ""inv_scaf5.721""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,1097728,1097853,27.659000000000002,"id ""inv_scaf5.752""",exon,evm.model.Herato0211.78,1087433,1100218,+,DNA repair metallo-beta-lactamase; Metallo-beta-lactamase;,
+Herato_chr2_5,Htel-Hsar-death,1175452,1175507,19.956,"id ""inv_scaf5.843""",noncoding_region,novel_model_19,1171446,1171785,-,,
+Herato_chr2_5,Htel-Hsar-death,1315183,1315286,22.826,"id ""inv_scaf5.1007""",Unknown,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,1316583,1316701,44.288000000000004,"id ""inv_scaf5.1010""",Unknown,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,1339403,1339647,45.836000000000006,"id ""inv_scaf5.1043""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,1346652,1346752,22.345,"id ""inv_scaf5.1052""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,1401949,1402076,32.28,"id ""inv_scaf5.1128""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,1475854,1475987,22.646,"id ""inv_scaf5.1207""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,1515399,1515745,85.74700000000001,"id ""inv_scaf5.1254""",noncoding_region,NA,,,,,
+Herato_chr2_5,Hhsa-HeraRef-death,1557661,1557866,41.437,"id ""inv_scaf5.1284""",noncoding_region,NA,,,,,
+Herato_chr2_5,Htel-Hsar-death,1580509,1580958,61.771,"id ""inv_scaf5.1309""",intron,evm.model.Herato0211.61,1576492,1611869,+,"PIK helical domain profile.; Phosphatidylinositol 3- and 4-kinases signature 1.; Phosphatidylinositol 3-/4-kinase, catalytic domain;; Armadillo-type fold;; Protein kinase-like domain superfamily",GO:0005488 ;GO:0016301
+Herato_chr2_5,Htel-Hsar-death,1598735,1598982,70.173,"id ""inv_scaf5.1339""",exon,evm.model.Herato0211.61,1576492,1611869,+,"PIK helical domain profile.; Phosphatidylinositol 3- and 4-kinases signature 1.; Phosphatidylinositol 3-/4-kinase, catalytic domain;; Armadillo-type fold;; Protein kinase-like domain superfamily",GO:0005488 ;GO:0016301
+Herato_chr2_5,Htel-Hsar-death,1602119,1602248,33.408,"id ""inv_scaf5.1343""",exon+intron,evm.model.Herato0211.61,1576492,1611869,+,"PIK helical domain profile.; Phosphatidylinositol 3- and 4-kinases signature 1.; Phosphatidylinositol 3-/4-kinase, catalytic domain;; Armadillo-type fold;; Protein kinase-like domain superfamily",GO:0005488 ;GO:0016301
+Herato_chr2_5,Htel-Hsar-birth,1619812,1620828,27.77,"id ""inv_scaf5.1366""",noncoding_region,"evm.model.Herato0211.60,evm.model.Herato0211.59","1616713,1623390","1619515,1624606","-,+","1(Zinc finger HIT domain-containing protein 2); 2(Structure-specific endonuclease subunit SLX1 homolog; FANCL C-terminal domain; Zinc finger, RING/FYVE/PHD-type ;)",
+Herato_chr2_5,Hhsa-HeraRef-death,1677626,1677734,22.889,"id ""inv_scaf5.1406""",intron,evm.model.Herato0211.56,1654358,1833182,+,"Peptidase M16 inactive domain;  Aldo-keto reductase signature; Aldo/keto reductase family signature 2.;  Insulinase (Peptidase family M16); Middle or third domain of peptidase_M16; Metalloenzyme, LuxS/M16 peptidase-like;; NADP-dependent oxidoreductase domain",GO:0016491 ;GO:0003824 ;GO:0055114 ;GO:0046872
+Herato_chr2_5,Hhsa-HeraRef-birth,1890347,1890920,21.659000000000002,"id ""inv_scaf5.1454""",noncoding_region,evm.model.Herato0211.108,1893708,1943239,+,"Insulinase (Peptidase family M16); Middle or third domain of peptidase_M16; Peptidase M16 inactive domain; Metalloenzyme, LuxS/M16 peptidase-like;;",GO:0046872 ;GO:0003824
+Herato_chr2_5,Hhsa-HeraRef-death,2037081,2038424,32.400999999999996,"id ""inv_scaf5.1497""",exon+intron,evm.model.Herato0211.52,2034452,2045074,+,"Middle or third domain of peptidase_M16;  Peptidase M16 inactive domain; Metalloenzyme, LuxS/M16 peptidase-like",GO:0003824 ;GO:0046872

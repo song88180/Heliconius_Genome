@@ -1,0 +1,36 @@
+GO,Replications,Description
+GO:0003824,5,catalytic activity
+GO:0055114,4,oxidation-reduction process
+GO:0005515,3,protein binding
+GO:0046872,2,metal ion binding
+GO:0020037,2,heme binding
+GO:0016705,2,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen "
+GO:0016491,2,oxidoreductase activity
+GO:0006886,2,intracellular protein transport
+GO:0006810,2,transport
+GO:0005622,2,intracellular
+GO:0005506,2,iron ion binding
+GO:0005488,2,binding
+GO:0030131,1,clathrin adaptor complex
+GO:0030117,1,membrane coat
+GO:0017137,1,Rab GTPase binding
+GO:0016459,1,myosin complex
+GO:0016301,1,kinase activity
+GO:0016192,1,vesicle-mediated transport
+GO:0016020,1,membrane
+GO:0008534,1,oxidized purine nucleobase lesion DNA N-glycosylase activity
+GO:0008289,1,lipid binding
+GO:0008152,1,metabolic process
+GO:0006508,1,proteolysis
+GO:0006412,1,translation
+GO:0006289,1,nucleotide-excision repair
+GO:0006284,1,base-excision repair
+GO:0006281,1,DNA repair
+GO:0005840,1,ribosome
+GO:0005634,1,nucleus
+GO:0005524,1,ATP binding
+GO:0005215,1,transporter activity
+GO:0004252,1,serine-type endopeptidase activity
+GO:0003774,1,motor activity
+GO:0003735,1,structural constituent of ribosome
+GO:0003684,1,damaged DNA binding

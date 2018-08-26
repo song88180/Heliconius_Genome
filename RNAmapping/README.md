@@ -127,13 +127,13 @@ merge.sh:
 
     ls -1 Hsar* > Hsar_gff.list
     while read file;do
-        sort -t $'\t' -k4,4n $file >> Hsar_inv_merged.gff
+        sort -t $'\t' -k4,4n $file >> Hsar_liftover_sorted.gff
     done < Hsar_gff.list
     
 Convert GFF to GTF:
     
     gffread Hera_chr2_inv_sorted.gff -T -o Hera_chr2_inv_sorted.gtf
-    gffread Hsar_liftover.gff -T -o Hsar_liftover_sorted.gtf
+    gffread Hsar_liftover_sorted.gff -T -o Hsar_liftover_sorted.gtf
     
 Then use the new generated GTF file to repeat the RNA reads mapping as above.
     

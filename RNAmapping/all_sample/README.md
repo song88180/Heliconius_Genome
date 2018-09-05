@@ -62,3 +62,23 @@ Map using tophat with transcriptome annotation gtf:
     tophat2 -o Hsar_hal_[leg,mouth,antennae]_[1,2] -p 12 -G refgenome/gtf/Hsar_liftover_sorted.gtf refgenome/fas/Hsar_hal_from_Hera_chr2 fastq/Hsar_[leg,mouth,antennae]_[1,2]_1.fastq.gz fastq/Hsar_[leg,mouth,antennae]_[1,2]_2.fastq.gz
     tophat2 -o Hera_hal_[leg,mouth,antennae]_[1,2] -p 12 -G refgenome/gtf/Hera_hal_chr2_filtered.gtf refgenome/fas/Hera_hal_chr2 fastq/Hera_[leg,mouth,antennae]_[1,2]_1.fastq.gz fastq/Hera_[leg,mouth,antennae]_[1,2]_2.fastq.gz 
 
+Generate reads count table (for DESeq2) using GTF and BAM:
+
+    htseq-count -q -f bam -s no -i transcript_id Hera_hal_[leg,mouth,antennae]_[1,2]/accepted_hits.bam refgenome/gtf/Hera_hal_chr2_filtered.gtf > count/Hera_hal_[leg,mouth,antennae]_chr2_[1,2].count
+    htseq-count -q -f bam -s no -i transcript_id Hera_hal_[leg,mouth,antennae]_[1,2]/accepted_hits.bam refgenome/gtf/Hera_hal_chr2_filtered.gtf > count/Hera_hal_[leg,mouth,antennae]_chr2_[1,2].count
+    
+-------------------------
+# Results
+Hera_hal_leg_1
+Hera_hal_leg_2
+Hera_hal_mouth_1    19416856(unmapped)  127056(mapped)  53540(properly paired)
+Hera_hal_mouth_2    20263657(unmapped)  374506(mapped)  171650(properly paired)
+Hera_hal_antennae_1 18791891(unmapped)  548227(mapped)  267276(properly paired)
+Hera_hal_antennae_2 18184117(unmapped)  88378(mapped)   37644(properly paired)
+
+Hsar_hal_leg_1
+Hsar_hal_leg_2
+Hsar_hal_mouth_1    1198696(unmapped)   25443(mapped)   15800(properly paired)
+Hsar_hal_mouth_2    13461659(unmapped)  217239(mapped)  110388(properly paired)
+Hsar_hal_antennae_1 15974796(unmapped)  267501(mapped)  140012(properly paired)
+Hsar_hal_antennae_2 14691409(unmapped)  210521(mapped)  107052(properly paired)

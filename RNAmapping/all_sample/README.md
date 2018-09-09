@@ -67,6 +67,8 @@ Generate reads count table (for DESeq2) using GTF and BAM:
     htseq-count -q -f bam -s no -i transcript_id Hera_hal_[leg,mouth,antennae]_[1,2]/accepted_hits.bam refgenome/gtf/Hera_hal_chr2_filtered.gtf > count/Hera_hal_[leg,mouth,antennae]_chr2_[1,2].count
     htseq-count -q -f bam -s no -i transcript_id Hsar_hal_[leg,mouth,antennae]_[1,2]/accepted_hits.bam refgenome/gtf/Hsar_liftover_sorted.gtf > count/Hsar_hal_[leg,mouth,antennae]_chr2_[1,2].count
     
+    join Hera_hal_leg_chr2_1.count Hera_hal_leg_chr2_2.count | join - Hera_hal_mouth_chr2_1.count | join - Hera_hal_mouth_chr2_2.count | join - Hera_hal_antennae_chr2_1.count | join - Hera_hal_antennae_chr2_2.count | join - Hsar_hal_leg_chr2_1.count | join - Hsar_hal_leg_chr2_2.count | join - Hsar_hal_mouth_chr2_1.count | join - Hsar_hal_mouth_chr2_2.count | join - Hsar_hal_antennae_chr2_1.count | join - Hsar_hal_antennae_chr2_2.count > counttable.txt
+    
     
 DEG analysis using R
 

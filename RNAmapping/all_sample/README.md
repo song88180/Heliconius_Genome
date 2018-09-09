@@ -126,3 +126,7 @@ Hera > Hsar: 28-5=23
 | evm.model.Herato0214.29.1 | 7 | 0 | 0 | 12 | 8 | 2 | 6 | 33 | 4 | 27 | 33 | 33 |
 | evm.model.Herato0214.30 | 93 | 36 | 38 | 86 | 135 | 20 | 156 | 309 | 56 | 217 | 182 | 187 |
 | evm.model.Herato0214.48 | 44 | 0 | 0 | 56 | 138 | 0 | 89 | 297 | 59 | 228 | 772 | 792 |
+
+evm.model.Herato0214.30: Leucine-zipper-like transcriptional regulator 1
+evm.model.Herato0214.48: Calmodulin 
+

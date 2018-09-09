@@ -106,18 +106,30 @@ DEG analysis using R
 gene number: 419 -> 325 (exclusion, sum(counts)>60) -> 106(significant difference) 
 
 gene in Hera inversion : 127 
+
 gene in rest of chr2 :  552-127=425
+
 gene in Hera inversion after liftover: 73
+
 gene in rest of chr2 after liftover: 325-73=252
+
 significant difference gene in inversion: 28
+
 significant difference gene in rest of chr2: 106-22=84
 
+
 significant genes:
+
 Hera < Hsar: 34
+
 Hera > Hsar: 106-34=72
+
 significant genes in inversion: 
+
 Hera < Hsar: 5
+
 Hera > Hsar: 28-5=23
+
 
 | gene | Hera_leg_1 | Hera_leg_2 | Hera_mouth_1 | Hera_mouth_2 | Hera_antennae_1 | Hera_antennae_2 | Hsar_leg_1 | Hsar_leg_2 | Hsar_mouth_1 | Hsar_mouth_2 | Hsar_antennae_1 | Hsar_antennae_2 |
 | - | - | - | - | - | - | - | - | - | - | - | - | - |

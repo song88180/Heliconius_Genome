@@ -67,6 +67,9 @@ Generate reads count table (for DESeq2) using GTF and BAM:
     htseq-count -q -f bam -s no -i transcript_id Hera_hal_[leg,mouth,antennae]_[1,2]/accepted_hits.bam refgenome/gtf/Hera_hal_chr2_filtered.gtf > count/Hera_hal_[leg,mouth,antennae]_chr2_[1,2].count
     htseq-count -q -f bam -s no -i transcript_id Hsar_hal_[leg,mouth,antennae]_[1,2]/accepted_hits.bam refgenome/gtf/Hsar_liftover_sorted.gtf > count/Hsar_hal_[leg,mouth,antennae]_chr2_[1,2].count
     
+    
+DEG analysis using R
+
 -------------------------
 # Results
 Hera_hal_leg_1      19631292(unmapped)  301086(mapped)  142698(properly paired)
@@ -76,8 +79,8 @@ Hera_hal_mouth_2    20263657(unmapped)  374506(mapped)  171650(properly paired)
 Hera_hal_antennae_1 18791891(unmapped)  548227(mapped)  267276(properly paired)
 Hera_hal_antennae_2 18184117(unmapped)  88378(mapped)   37644(properly paired)
 
-Hsar_hal_leg_1
-Hsar_hal_leg_2
+Hsar_hal_leg_1      11738685(unmapped)  127976(mapped)  64010(properly paired)
+Hsar_hal_leg_2      24426099(unmapped)  252099(mapped)  128408(properly paired)
 Hsar_hal_mouth_1    1198696(unmapped)   25443(mapped)   15800(properly paired)
 Hsar_hal_mouth_2    13461659(unmapped)  217239(mapped)  110388(properly paired)
 Hsar_hal_antennae_1 15974796(unmapped)  267501(mapped)  140012(properly paired)

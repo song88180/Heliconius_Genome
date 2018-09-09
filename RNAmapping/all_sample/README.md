@@ -75,11 +75,13 @@ DEG analysis using R
 -------------------------
 # Results
 
-### Liftover results
+### Liftover
 
-| original | constitutive, >100bp | Liftover |
-| - | - | - |
-| 6027 | 3098 | 2091 |
+| | original | constitutive, >100bp | Liftover |
+| - | - | - | - |
+| exon | 6027 | 3098 | 2091 |
+| gene | 777 | 552 | 419 |
+
 
 ### Mapping results
 
@@ -99,9 +101,9 @@ DEG analysis using R
 | Hsar_hal_antennae_2 | 14691409  | 210521  | 107052 |
 
 
-## counts
+## DEG results
+
+gene number: 419 -> 325 (exclusion, sum(counts)>60) -> 107(significant difference) 
 
 
-
-### DEG results
 

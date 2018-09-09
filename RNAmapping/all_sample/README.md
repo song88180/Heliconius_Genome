@@ -75,6 +75,12 @@ DEG analysis using R
 -------------------------
 # Results
 
+### Liftover results
+
+| original | constitutive, >100bp | Liftover |
+| - | - | - |
+| 6027 | 3098 | 2091 |
+
 ### Mapping results
 
 |                     |  unmapped |  mapped | properly paired |
@@ -91,3 +97,11 @@ DEG analysis using R
 | Hsar_hal_mouth_2    | 13461659  | 217239  | 110388 |
 | Hsar_hal_antennae_1 | 15974796  | 267501  | 140012 |
 | Hsar_hal_antennae_2 | 14691409  | 210521  | 107052 |
+
+
+## counts
+
+
+
+### DEG results
+

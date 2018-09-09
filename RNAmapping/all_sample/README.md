@@ -74,17 +74,20 @@ DEG analysis using R
 
 -------------------------
 # Results
-|                     |    unmapped         |   mapped        |    properly paired       |
-|           -         |         -           |        -        |          -               |
-| Hera_hal_leg_1      | 19631292(unmapped)  | 301086(mapped)  | 142698(properly paired)
-| Hera_hal_leg_2      | 18040029(unmapped)  | 107853(mapped)  | 49540(properly paired)
-| Hera_hal_mouth_1    | 19416856(unmapped)  | 127056(mapped)  | 53540(properly paired)
-| Hera_hal_mouth_2    | 20263657(unmapped)  | 374506(mapped)  | 171650(properly paired)
-| Hera_hal_antennae_1 | 18791891(unmapped)  | 548227(mapped)  | 267276(properly paired)
-| Hera_hal_antennae_2 | 18184117(unmapped)  | 88378(mapped)   | 37644(properly paired)
-| Hsar_hal_leg_1      | 11738685(unmapped)  | 127976(mapped)  | 64010(properly paired)
-| Hsar_hal_leg_2      | 24426099(unmapped)  | 252099(mapped)  | 128408(properly paired)
-| Hsar_hal_mouth_1    | 1198696(unmapped)   | 25443(mapped)   | 15800(properly paired)
-| Hsar_hal_mouth_2    | 13461659(unmapped)  | 217239(mapped)  | 110388(properly paired)
-| Hsar_hal_antennae_1 | 15974796(unmapped)  | 267501(mapped)  | 140012(properly paired)
-| Hsar_hal_antennae_2 | 14691409(unmapped)  | 210521(mapped)  | 107052(properly paired)
+
+### Mapping results
+
+|                     |  unmapped |  mapped | properly paired |
+|           -         |  -        |    -    |   -    |
+| Hera_hal_leg_1      | 19631292  | 301086  | 142698 |
+| Hera_hal_leg_2      | 18040029  | 107853  | 49540  |
+| Hera_hal_mouth_1    | 19416856  | 127056  | 53540  |
+| Hera_hal_mouth_2    | 20263657  | 374506  | 171650 |
+| Hera_hal_antennae_1 | 18791891  | 548227  | 267276 |
+| Hera_hal_antennae_2 | 18184117  | 88378   | 37644  |
+| Hsar_hal_leg_1      | 11738685  | 127976  | 64010  |
+| Hsar_hal_leg_2      | 24426099  | 252099  | 128408 |
+| Hsar_hal_mouth_1    | 1198696   | 25443   | 15800  |
+| Hsar_hal_mouth_2    | 13461659  | 217239  | 110388 |
+| Hsar_hal_antennae_1 | 15974796  | 267501  | 140012 |
+| Hsar_hal_antennae_2 | 14691409  | 210521  | 107052 |

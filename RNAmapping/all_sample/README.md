@@ -119,9 +119,10 @@ significant genes in inversion:
 Hera < Hsar: 5
 Hera > Hsar: 28-5=23
 
-gene Hera_leg_1 Hera_leg_2 Hera_mouth_1 Hera_mouth_2 Hera_antennae_1 Hera_antennae_2 Hsar_leg_1 Hsar_leg_2 Hsar_mouth_1 Hsar_mouth_2 Hsar_antennae_1 Hsar_antennae_2
-evm.model.Herato0211.93 0 0 3 4 0 0 2 7 1 7 86 13
-evm.model.Herato0214.19 7 2 0 6 32 4 12 29 2 39 58 50
-evm.model.Herato0214.29.1   7 0 0 12 8 2 6 33 4 27 33 33
-evm.model.Herato0214.30 93 36 38 86 135 20 156 309 56 217 182 187
-evm.model.Herato0214.48 44 0 0 56 138 0 89 297 59 228 772 792
+| gene | Hera_leg_1 | Hera_leg_2 | Hera_mouth_1 | Hera_mouth_2 | Hera_antennae_1 | Hera_antennae_2 | Hsar_leg_1 | Hsar_leg_2 | Hsar_mouth_1 | Hsar_mouth_2 | Hsar_antennae_1 | Hsar_antennae_2 |
+| - | - | - | - | - | - | - | - | - | - | - | - | - |
+| evm.model.Herato0211.93 | 0 | 0 | 3 | 4 | 0 | 0 | 2 | 7 | 1 | 7 | 86 | 13 |
+| evm.model.Herato0214.19 | 7 | 2 | 0 | 6 | 32 | 4 | 12 | 29 | 2 | 39 | 58 | 50 |
+| evm.model.Herato0214.29.1 | 7 | 0 | 0 | 12 | 8 | 2 | 6 | 33 | 4 | 27 | 33 | 33 |
+| evm.model.Herato0214.30 | 93 | 36 | 38 | 86 | 135 | 20 | 156 | 309 | 56 | 217 | 182 | 187 |
+| evm.model.Herato0214.48 | 44 | 0 | 0 | 56 | 138 | 0 | 89 | 297 | 59 | 228 | 772 | 792 |

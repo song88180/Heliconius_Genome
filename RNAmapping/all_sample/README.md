@@ -65,12 +65,12 @@ Map using tophat with transcriptome annotation gtf:
 Generate reads count table (for DESeq2) using GTF and BAM:
 
     htseq-count -q -f bam -s no -i transcript_id Hera_hal_[leg,mouth,antennae]_[1,2]/accepted_hits.bam refgenome/gtf/Hera_hal_chr2_filtered.gtf > count/Hera_hal_[leg,mouth,antennae]_chr2_[1,2].count
-    htseq-count -q -f bam -s no -i transcript_id Hera_hal_[leg,mouth,antennae]_[1,2]/accepted_hits.bam refgenome/gtf/Hera_hal_chr2_filtered.gtf > count/Hera_hal_[leg,mouth,antennae]_chr2_[1,2].count
+    htseq-count -q -f bam -s no -i transcript_id Hsar_hal_[leg,mouth,antennae]_[1,2]/accepted_hits.bam refgenome/gtf/Hsar_liftover_sorted.gtf > count/Hsar_hal_[leg,mouth,antennae]_chr2_[1,2].count
     
 -------------------------
 # Results
-Hera_hal_leg_1
-Hera_hal_leg_2
+Hera_hal_leg_1      19631292(unmapped)  301086(mapped)  142698(properly paired)
+Hera_hal_leg_2      18040029(unmapped)  107853(mapped)  49540(properly paired)
 Hera_hal_mouth_1    19416856(unmapped)  127056(mapped)  53540(properly paired)
 Hera_hal_mouth_2    20263657(unmapped)  374506(mapped)  171650(properly paired)
 Hera_hal_antennae_1 18791891(unmapped)  548227(mapped)  267276(properly paired)

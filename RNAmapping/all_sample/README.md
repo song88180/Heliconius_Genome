@@ -137,6 +137,9 @@ Hera > Hsar: 28-5=23
 | genes in rest of chr2 | 425 | 323 | 252 | 84 | 
 | ratio inv/rest | 0.30 | 0.30 | 0.27 | 0.33 | 
 
+
+
+
 | gene | Hera_leg_1 | Hera_leg_2 | Hera_mouth_1 | Hera_mouth_2 | Hera_antennae_1 | Hera_antennae_2 | Hsar_leg_1 | Hsar_leg_2 | Hsar_mouth_1 | Hsar_mouth_2 | Hsar_antennae_1 | Hsar_antennae_2 |
 | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | evm.model.Herato0211.93 | 0 | 0 | 3 | 4 | 0 | 0 | 2 | 7 | 1 | 7 | 86 | 13 |
